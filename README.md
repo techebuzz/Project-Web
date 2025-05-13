@@ -20,4 +20,4 @@ A responsive blog website built with HTML, CSS, and JavaScript featuring modern 
 2. Open `index.html` in your browser
 3. Customize content in `index.html` and styles in `styles.css`
 ## Live Website
-[click here to view the website]
+[click here to view the website] https://techebuzz.github.io/Project-Web/
