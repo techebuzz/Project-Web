@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Blog</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#articles" class="dropdown-trigger">Articles <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#web-dev">Web Development</a></li>
+                        <li><a href="#ai">Artificial Intelligence</a></li>
+                        <li><a href="#design">Design</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#about" class="dropdown-trigger">About <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#mission">Our Mission</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to My Blog</h1>
+            <p>Discover interesting articles about technology, lifestyle, and more.</p>
+        </section>
+
+        <section id="featured-posts">
+            <h2>Featured Posts</h2>
+            <div class="post-grid">
+                <article class="post-card">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60" alt="Web Development">
+                    <h3>Getting Started with Web Development</h3>
+                    <p>Learn the basics of HTML, CSS, and JavaScript...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article class="post-card">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&auto=format&fit=crop&q=60" alt="Artificial Intelligence">
+                    <h3>The Future of AI</h3>
+                    <p>Exploring the latest developments in artificial intelligence...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article class="post-card">
+                    <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=500&auto=format&fit=crop&q=60" alt="Responsive Design">
+                    <h3>Responsive Design Tips</h3>
+                    <p>Best practices for creating mobile-friendly websites...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>We're passionate about sharing knowledge and insights.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/geraldkanja3/" target="_blank" class="contact-icon linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/techebuzz" target="_blank" class="contact-icon github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://x.com/KanjaGe_?t=2tw03FKa8JiFJLPLfLSvSg&s=09" target="_blank" class="contact-icon twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
